@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Asky-search
+
+</title>
+
+
+
+<META NAME="Description" CONTENT="search your content online with Asky-Search, Indias very own search engine.">
+<META NAME="Keywords" CONTENT="askysearch,search,find,look,google,khoj,Asky-Search,Asky,asky">
+</head>
+<body onload="whenload();" bgcolor="white">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+		<strong><a href='https://www.google.co.in/imghp?hl=en&tab=wi&ei=48Q7VaqWKMemuQTgyICQAw&ved=0CBEQqi4oAg'>Images</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp;
+		
+		<strong><a href='https://news.google.co.in/nwshp?hl=en&tab=wn&ei=JsE7VY7SGsehugSB0IDICw&ved=0CAUQqS4oBQ'>news</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp; 
+	    
+		<strong><a href='http://www.youtube.com' class='arial12ash-tag'>youtube</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp; 
+		
+		<strong><a href='http://www.bbc.com/news/world' class='arial12ash-tag'>World news</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp; 
+		
+		<strong><a href='http://www.bollywoodhungama.com/movies/reviews' class='arial12ash-tag'>Movies review</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp; 
+		
+		<strong><a href='http://www.facebook.com' class='arial12ash-tag'>facebook</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp; 
+		
+		<strong><a href='https://translate.google.co.in/?hl=en&tab=iT' class='arial12ash-tag'>translate</a></strong>&nbsp;&nbsp;||&nbsp;&nbsp; 
+		
+		<strong><a href='http://www.cricbuzz.com/' class='arial12ash-tag'>Cricket news</a></strong><hr>
+<br>
+<br>
+<br>
+<center><IMG SRC="Askysearch_logown.png" height="200" width="400">
+</center>
+								
+	<!-- Search-->
+<form id="search-form" method="get">
+			<table width="100%">
+			<tr><td align="center"><input id="search-box" size="70" type="text" name="q" value=""/></td></tr>
+			<tr><td align="center" ><input type="submit" id="search-button" value="Search"/></td></tr>
+		</table><br> 
+		<center>
+		<div class="fb-like" data-href="https://www.facebook.com/pages/Asky-Search/1624075634471281?ref=hl" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+</center>
+		</form>
+</td>
+</tr>
+<tr><td>
+</td></tr>
+</table>
+
+</center>
+<div style="padding-left: 15px;"> 
+			<div id="cse"></div> 
+
+<br>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+	<script>
+		google.load('search', '1');
+		google.setOnLoadCallback(function(){
+			var googleSearch = new google.search.CustomSearchControl('016910619179507117430:kzd_rgbuz0m');
+			
+			googleSearch.setResultSetSize(google.search.Search.LARGE_RESULTSET);
+			
+			var drawOptions = new google.search.DrawOptions();
+			drawOptions.setInput(document.getElementById('search-box'));
+			drawOptions.setAutoComplete(true);
+			googleSearch.draw('cse', drawOptions);
+			document.getElementById('search-form').onsubmit = function() {
+				googleSearch.execute(document.getElementById('search-box').value);
+				return false;
+			}
+			if(document.getElementById('search-box').value != '') {
+				googleSearch.execute(document.getElementById('search-box').value);
+			}
+		}, true);
+		document.getElementById('search-box').focus();
+	</script>
+<!-- Search-->
+
+<!-- google analytics code-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62283300-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- google analytics ends -->
+<center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</center>
+	
+<span id=hp style="behavior:url(#default#homepage)"></span>
+<br>
+<br>
+<br>
+<br>
+<p align="right">
+<font size="3" color="black" type="arial,sans-serif">
+<a href="home.html">home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="about.html">about</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="https://plus.google.com/b/112088013263938482783/112088013263938482783/about?hl=en&service=plus">follow</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</font>
+</p>
+
+</body>
+</html>
